@@ -1,0 +1,8 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-08 18:34:20.897,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1586,"[1] recordIndex=0, moment=2021/12/08 12:30, author=Leslie Design, text=I have to go to the dry cleaner!, info=http://cleanApp.com",OK
+2021-12-08 18:34:22.29,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1110,"[2] recordIndex=1, moment=2021/12/08 12:30, author=Marta Design, text=I have to study for the exams, info=https://www.informatica.us.es/",OK
+2021-12-08 18:34:23.787,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1223,"[3] recordIndex=2, moment=2021/12/08 15:30, author=Foo Bar, text=Just turning 50!, info=null",OK
+2021-12-08 18:34:25.296,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1239,"[4] recordIndex=3, moment=2021/12/08 15:39, author=John Doe, text=I'm happy!, info=null",OK
+2021-12-08 18:34:26.743,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1178,"[5] recordIndex=4, moment=2021/12/08 15:55, author=Jane Doe, text=I have to clean the car, info=http://www.lavaderoSevilla.com",OK
+2021-12-08 18:34:29.981,acme.testing.anonymous.shout.AnonymousShoutListTest,listAnonymousNegative,2991,"[1] user=officer1, password=officer1",OK
+2021-12-08 18:34:33.16,acme.testing.anonymous.shout.AnonymousShoutListTest,listAnonymousNegative,2946,"[2] user=employer1, password=employer1",OK

@@ -1,0 +1,8 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-08 18:24:38.317,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1799,"[1] recordIndex=0, moment=2021/12/08 12:30, author=Leslie Design, text=I have to go to the dry cleaner!, info=http://cleanApp.com",OK
+2021-12-08 18:24:39.671,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1090,"[2] recordIndex=1, moment=2021/12/08 12:30, author=Marta Design, text=I have to study for the exams, info=https://www.informatica.us.es/",OK
+2021-12-08 18:24:41.179,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1259,"[3] recordIndex=2, moment=2021/12/08 15:30, author=Foo Bar, text=Just turning 50!, info=null",OK
+2021-12-08 18:24:42.671,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1206,"[4] recordIndex=3, moment=2021/12/08 15:39, author=John Doe, text=I'm happy!, info=null",OK
+2021-12-08 18:24:44.161,acme.testing.anonymous.shout.AnonymousShoutListTest,ListRecent,1226,"[5] recordIndex=4, moment=2021/12/08 15:55, author=Jane Doe, text=I have to clean the car, info=http://www.lavaderoSevilla.com",OK
+2021-12-08 18:25:27.354,acme.testing.anonymous.shout.AnonymousShoutListTest,listAnonymousNegative,42893,"[1] user=officer1, password=officer1",Action didn't result in panic
+2021-12-08 18:25:57.966,acme.testing.anonymous.shout.AnonymousShoutListTest,listAnonymousNegative,30336,"[2] user=employer1, password=employer1",Cannot find 'By.xpath: //div[@id='mainMenu']/ul/li/a[normalize-space()='Sign in']'

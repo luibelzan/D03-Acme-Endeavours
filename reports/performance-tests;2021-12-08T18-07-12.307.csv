@@ -1,0 +1,15 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-08 18:07:29.955,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,3524,"[1] recordIndex=0, author=Foo Bar, text=Just turning 50!, info=null",Expected value 'Foo Bar' in attribute 1 of record 0, but found 'Leslie Design'
+2021-12-08 18:07:33.344,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,3116,"[2] recordIndex=1, author=Jane Doe, text=I have to clean the car, info=http://www.lavaderoSevilla.com",Expected value 'Jane Doe' in attribute 1 of record 1, but found 'Marta Design'
+2021-12-08 18:07:36.071,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,2467,"[3] recordIndex=2, author=John Doe, text=I'm happy!, info=null",Expected value 'John Doe' in attribute 1 of record 2, but found 'Foo Bar'
+2021-12-08 18:07:38.923,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,2606,"[4] recordIndex=3, author=Leslie Design, text=I have to go to the dry cleaner!, info=http://cleanApp.com",Expected value 'Leslie Design' in attribute 1 of record 3, but found 'John Doe'
+2021-12-08 18:07:41.532,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,2369,"[5] recordIndex=4, author=Marta Design, text=I have to study for the exams, info=https://www.informatica.us.es/",Expected value 'Marta Design' in attribute 1 of record 4, but found 'Jane Doe'
+2021-12-08 18:07:43.385,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1562,"[1] recodIndex=0, author=Sex, text=Good morning!, info=http://www.sample-app.com",OK
+2021-12-08 18:07:45.165,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1517,"[2] recodIndex=1, author=Good morning!, text=sex, info=http://www.sample-app.com",OK
+2021-12-08 18:07:47.06,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1647,"[3] recodIndex=2, author=Hola a a million dollars, text=Hello people!, info=http://www.sample-app.com",OK
+2021-12-08 18:07:48.873,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1578,"[4] recodIndex=3, author=null, text=Good morning!, info=null",OK
+2021-12-08 18:07:50.52,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1404,"[5] recodIndex=4, author=null, text=null, info=null",OK
+2021-12-08 18:07:52.373,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1592,"[6] recodIndex=5, author=null, text=Good morning!, info=http://www.sample-app.com",OK
+2021-12-08 18:07:54.296,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1681,"[7] recodIndex=6, author=Sex, text=Sex a a a a a a a a a, info=http://www.sample-app.com",OK
+2021-12-08 18:07:56.217,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1651,"[8] recodIndex=7, author=Leslie, text=null, info=http://www.sample-app.com",OK
+2021-12-08 18:07:57.989,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1523,"[9] recodIndex=8, author=Good morning!, text=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, info=null",OK
