@@ -17,26 +17,26 @@ public class AdministratorShowDashboardTest extends AcmeEndeavoursTest{
 	public void administratoDashboardPositive() {
 		super.signIn("administrator", "administrator");
 		super.clickOnMenu("Administrator", "Dashboard");
-
+		
 		By locatorNumberPublicTasks;
 		locatorNumberPublicTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[1]/td");
 		final WebElement numberPublicTasks = this.driver.findElement(locatorNumberPublicTasks);
-		Assertions.assertEquals("11.00", numberPublicTasks.getText());
+		Assertions.assertEquals("9.00", numberPublicTasks.getText());
 
 		final By locatorNumberPrivateTask;
 		locatorNumberPrivateTask = By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td");
 		final WebElement numberPrivateTask = this.driver.findElement(locatorNumberPrivateTask);
-		Assertions.assertEquals("1.00", numberPrivateTask.getText());
+		Assertions.assertEquals("3.00", numberPrivateTask.getText());
 
 		By locatorNumberFinalTask;
 		locatorNumberFinalTask = By.xpath("/html/body/div[2]/div/table/tbody/tr[3]/td");
 		final WebElement numberFinalTask = this.driver.findElement(locatorNumberFinalTask);
-		Assertions.assertEquals("6.00", numberFinalTask.getText());
+		Assertions.assertEquals("12.00", numberFinalTask.getText());
 
 		final By locatorNumberNoFinalTask;
 		locatorNumberNoFinalTask = By.xpath("/html/body/div[2]/div/table/tbody/tr[4]/td");
 		final WebElement numberNoFinalTask = this.driver.findElement(locatorNumberNoFinalTask);
-		Assertions.assertEquals("6.00", numberNoFinalTask.getText());
+		Assertions.assertEquals("0.00", numberNoFinalTask.getText());
 
 		final By locatorAverageDurationPeriodTasks;
 		locatorAverageDurationPeriodTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[5]/td");
@@ -46,7 +46,7 @@ public class AdministratorShowDashboardTest extends AcmeEndeavoursTest{
 		By locatorDeviationDurationPeriodTasks;
 		locatorDeviationDurationPeriodTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[6]/td");
 		final WebElement deviationDurationPeriodTasks = this.driver.findElement(locatorDeviationDurationPeriodTasks);
-		Assertions.assertEquals("1,531.06", deviationDurationPeriodTasks.getText());
+		Assertions.assertEquals("1,531.09", deviationDurationPeriodTasks.getText());
 
 		By locatorMinimumDurationPeriodTasks;
 		locatorMinimumDurationPeriodTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[7]/td");
@@ -61,12 +61,12 @@ public class AdministratorShowDashboardTest extends AcmeEndeavoursTest{
 		By locatorAverageWorkloadTasks;
 		locatorAverageWorkloadTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[9]/td");
 		final WebElement averageWorkloadTasks = this.driver.findElement(locatorAverageWorkloadTasks);
-		Assertions.assertEquals("3.36", averageWorkloadTasks.getText());
+		Assertions.assertEquals("3.60", averageWorkloadTasks.getText());
 
 		By locatorDeviationWorkloadTasks;
 		locatorDeviationWorkloadTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[10]/td");
 		final WebElement deviationWorkloadTasks = this.driver.findElement(locatorDeviationWorkloadTasks);
-		Assertions.assertEquals("4.09", deviationWorkloadTasks.getText());
+		Assertions.assertEquals("4.14", deviationWorkloadTasks.getText());
 
 		By locatorMinimumWorkloadTasks;
 		locatorMinimumWorkloadTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[11]/td");

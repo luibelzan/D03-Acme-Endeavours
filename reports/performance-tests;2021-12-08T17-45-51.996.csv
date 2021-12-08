@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-08 17:46:09.882,acme.testing.administrator.dashboard.AdministratorShowDashboardTest,managerDashboardNegative,3698,"[1] user=officer1, password=officer1",OK
+2021-12-08 17:46:13.626,acme.testing.administrator.dashboard.AdministratorShowDashboardTest,managerDashboardNegative,3457,"[2] user=employer1, password=employer1",OK
+2021-12-08 17:46:16.948,acme.testing.administrator.dashboard.AdministratorShowDashboardTest,administratoDashboardPositive,3064,"administratoDashboardPositive()",OK

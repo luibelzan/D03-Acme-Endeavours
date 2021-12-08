@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-08 17:14:12.564,acme.testing.administrator.dashboard.AdministratorShowDashboardTest,managerDashboardNegative,2067,"[1] user=manager1, password=manager1",The system doesn't navigate from '/master/sign-in' to '/master/welcome'
+2021-12-08 17:14:16.643,acme.testing.administrator.dashboard.AdministratorShowDashboardTest,managerDashboardNegative,3816,"[2] user=employer1, password=employer1",OK
+2021-12-08 17:14:19.626,acme.testing.administrator.dashboard.AdministratorShowDashboardTest,administratoDashboardPositive,2722,"administratoDashboardPositive()",expected: <11.00> but was: <2.00>

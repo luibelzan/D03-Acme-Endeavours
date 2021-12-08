@@ -22,32 +22,7 @@
 <table class="table table-sm">
 	<caption>
 		<acme:message code="administrator.dashboard.form.title.general-indicators"/>
-	</caption>	
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.average-number-jobs-employer"/>
-		</th>
-		<td>
-			<acme:print value="${averageNumberOfJobsPerEmployer}"/>
-		</td>
-	</tr>
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.average-number-applications-worker"/>
-		</th>
-		<td>
-			<acme:print value="${averageNumberOfApplicationsPerWorker}"/>
-		</td>
-	</tr>
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.average-number-applications-employer"/>
-		</th>
-		<td>
-			<acme:print value="${avegageNumberOfApplicationsPerEmployer}"/>
-		</td>
-	</tr>	
-	
+	</caption>
 	
 	<tr>
 		<th scope="row">

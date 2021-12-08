@@ -1,0 +1,23 @@
+timestamp,simple-path,time
+2021-12-08 17:15:28.689,/master/welcome,460
+2021-12-08 17:15:29.081,/master/welcome,361
+2021-12-08 17:15:29.836,/master/sign-in,581
+2021-12-08 17:15:30.952,/master/welcome,570
+2021-12-08 17:15:33.032,/master/welcome,259
+2021-12-08 17:15:33.684,/master/welcome,542
+2021-12-08 17:15:34.073,/master/welcome,269
+2021-12-08 17:15:34.401,/master/welcome,275
+2021-12-08 17:15:35.033,/master/sign-in,545
+2021-12-08 17:15:36.128,/master/sign-in,567
+2021-12-08 17:15:36.421,/master/welcome,222
+2021-12-08 17:15:36.687,/master/welcome,244
+2021-12-08 17:15:37.32,/master/sign-in,562
+2021-12-08 17:15:38.361,/master/welcome,578
+2021-12-08 17:15:38.696,/administrator/dashboard/show,288
+2021-12-08 17:15:39.046,/master/welcome,324
+2021-12-08 17:15:39.664,/master/welcome,546
+2021-12-08 17:15:39.971,/master/welcome,256
+2021-12-08 17:15:40.301,/master/welcome,306
+2021-12-08 17:15:40.929,/master/sign-in,556
+2021-12-08 17:15:41.988,/master/welcome,569
+2021-12-08 17:15:42.718,/administrator/dashboard/show,550
