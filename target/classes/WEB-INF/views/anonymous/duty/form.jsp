@@ -7,7 +7,7 @@
 	<acme:form-textbox code="anonymous.duty.form.label.title" path="title"/>
 	<acme:form-textbox code="anonymous.duty.form.label.description" path="description"/>
 	<acme:form-textbox code="anonymous.duty.form.label.periodInitial" path="periodInitial"/>
-	<acme:form-textbox code="anonymous.duty.form.label.periodFinal" path="periodInitial"/>
+	<acme:form-textbox code="anonymous.duty.form.label.periodFinal" path="periodFinal"/>
 	<acme:form-textbox code="anonymous.duty.form.label.workload" path="workloadInHours"/>
 	<acme:form-textbox code="anonymous.duty.form.label.link" path="link"/>	
 	<acme:form-checkbox code="anonymous.duty.form.label.isPublic" path="isPublic"/>	
