@@ -22,75 +22,59 @@
 	<!-- Shouts -->
 	
 	<bean id="shout01" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/02/13 19:39"/>
-		<property name="author" value="John Doe"/>
-		<property name="text" value="I'm happy!"/>
-		<property name="info"><null/></property>	
+		<property name="moment" value="2021/12/08 15:39" />
+		<property name="author" value="John Doe" />
+		<property name="text" value="I'm happy!" />
+		<property name="info">
+			<null />
+		</property>
 	</bean>
-	
+
 	<bean id="shout02" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2019/08/09 15:55"/>
-		<property name="author" value="Jane Doe"/>
-		<property name="text" value="I'm the master of my room!"/>
-		<property name="info" value="http://www.example.org"/>		
+		<property name="moment" value="2021/12/08 15:55" />
+		<property name="author" value="Jane Doe" />
+		<property name="text" value="I have to clean the car" />
+		<property name="info" value="http://www.lavaderoSevilla.com" />
 	</bean>
-	
+
 	<bean id="shout03" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2020/09/07 00:00"/>
-		<property name="author" value="Foo Bar"/>
-		<property name="text" value="Just turning 50!"/>
-		<property name="info" value="http://happybirthday.com"/>		
+		<property name="moment" value="2021/12/08 15:30" />
+		<property name="author" value="Foo Bar" />
+		<property name="text" value="Just turning 50!" />
+		<property name="info" value="" />
 	</bean>
 	
 	<bean id="shout04" class="acme.entities.shouts.Shout">
-		<property name="author" value="Leslie Design-Testing"/>
-		<property name="text" value="Woa! This app's so cool!"/>
-		<property name="moment" value="2021/02/13 12:30"/>
-		<property name="info" value="http://www.sample-app.com"/>
+		<property name="author" value="Leslie Design" />
+		<property name="text" value="I have to go to the dry cleaner!" />
+		<property name="moment" value="2021/12/08 12:30" />
+		<property name="info" value="http://cleanApp.com" />
 	</bean>
 	<bean id="shout05" class="acme.entities.shouts.Shout">
-		<property name="author" value="Leslie Design-Testing"/>
-		<property name="text" value="Woa! This app's so cool!"/>
-		<property name="moment" value="2021/04/10 12:30"/>
-		<property name="info" value="http://www.sample-app.com"/>
+		<property name="author" value="Marta Design" />
+		<property name="text" value="I have to study for the exams" />
+		<property name="moment" value="2021/12/08 12:30" />
+		<property name="info" value="https://www.informatica.us.es/" />
 	</bean>
 	<bean id="shout06" class="acme.entities.shouts.Shout">
-		<property name="author" value="Manuel"/>
-		<property name="text" value="Good morning! "/>
-		<property name="moment" value="2021/04/14 11:30"/>
-		<property name="info" value="http://www.sample-app.com"/>
+		<property name="author" value="Manuel Rodriguez" />
+		<property name="text" value="Good morning! This is a fantastic app" />
+		<property name="moment" value="2021/05/26 11:30" />
+		<property name="info" value="http://www.sample-app.com" />
 	</bean>
 	<bean id="shout07" class="acme.entities.shouts.Shout">
-		<property name="author" value="Leslie Design-Testing"/>
-		<property name="text" value=" Hello people!"/>
-		<property name="moment" value="2021/04/13 12:30"/>
-		<property name="info" value="http://www.sample-app.com"/>
-	</bean>
-	<bean id="shout08" class="acme.entities.shouts.Shout">
-		<property name="author" value="Leslie Design-Testing"/>
-		<property name="text" value="Woa! this is a fantastic day!"/>
-		<property name="moment" value="2021/04/12 15:30"/>
-		<property name="info" value="http://www.sample-app.com"/>
-	</bean>
-	<bean id="shout09" class="acme.entities.shouts.Shout">
-		<property name="author" value="Leslie Design-Testing"/>
-		<property name="text" value="Woa! Im very happy"/>
-		<property name="moment" value="2021/04/11 17:30"/>
-		<property name="info" value="http://www.sample-app.com"/>
-	</bean>
-	<bean id="shout10" class="acme.entities.shouts.Shout">
-		<property name="author" value="Leslie Design-Testing"/>
-		<property name="text" value="Woa! This app's so cool!"/>
-		<property name="moment" value="2021/04/10 18:30"/>
-		<property name="info" value="http://www.sample-app.com"/>
+		<property name="author" value="Leslie Design-Testing" />
+		<property name="text" value="There are great movies" />
+		<property name="moment" value="2021/05/25 12:30" />
+		<property name="info" value="https://www.netflix.com/" />
 	</bean>
 	
 	<!-- Duties -->
   
 	<bean id="duty01" class="acme.entities.duties.Duty">
 		<property name="title" value="Clean my house" />
-		<property name="periodInitial" value="2021/02/01 12:30" />
-		<property name="periodFinal" value="2021/02/01 13:30" />
+		<property name="periodInitial" value="2021/12/08 12:30" />
+		<property name="periodFinal" value="2022/01/25 13:30" />
 		<property name="description" value="I have to clean my house" />
 		<property name="link" value="" />
 		<property name="isPublic" value="true" />
@@ -100,8 +84,8 @@
 	</bean>
 	<bean id="duty02" class="acme.entities.duties.Duty">
 		<property name="title" value="Study the math exam" />
-		<property name="periodInitial" value="2021/02/11 12:30" />
-		<property name="periodFinal" value="2021/02/28 12:30" />
+		<property name="periodInitial" value="2021/12/08 12:30" />
+		<property name="periodFinal" value="2022/01/26 12:30" />
 		<property name="description" value="I have to study the math exam" />
 		<property name="link"><null /></property>
 		<property name="isPublic" value="true" />
@@ -110,8 +94,8 @@
 	</bean>
 	<bean id="duty03" class="acme.entities.duties.Duty">
 		<property name="title" value="Clean my car" />
-		<property name="periodInitial" value="2021/03/01 12:30" />
-		<property name="periodFinal" value="2021/03/01 12:45" />
+		<property name="periodInitial" value="2021/12/08 12:30" />
+		<property name="periodFinal" value="2022/01/20 12:45" />
 		<property name="description" value="I have to clean my car" />
 		<property name="link" value="http://lavaderos.com" />
 		<property name="isPublic" value="true" />
@@ -120,8 +104,8 @@
 	</bean>
 	<bean id="duty04" class="acme.entities.duties.Duty">
 		<property name="title" value="Go to the doctor" />
-		<property name="periodInitial" value="2021/03/01 12:30" />
-		<property name="periodFinal" value="2021/04/06 13:30" />
+		<property name="periodInitial" value="2021/12/08 12:30" />
+		<property name="periodFinal" value="2022/01/27 13:30" />
 		<property name="description" value="I have to go to the doctor" />
 		<property name="link"><null /></property>
 		<property name="isPublic" value="true" />
@@ -130,8 +114,8 @@
 	</bean>
 	<bean id="duty05" class="acme.entities.duties.Duty">
 		<property name="title" value="Developing my application" />
-		<property name="periodInitial" value="2021/03/01 12:30" />
-		<property name="periodFinal" value="2021/04/06 13:30" />
+		<property name="periodInitial" value="2021/12/08 12:30" />
+		<property name="periodFinal" value="2022/01/28 13:30" />
 		<property name="description" value="I have to finish developing my application" />
 		<property name="link" value="http://www.sample-app.com" />
 		<property name="isPublic" value="true" />
