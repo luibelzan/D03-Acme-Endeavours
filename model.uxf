@@ -81,10 +81,9 @@ UserAccount
 
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1930</x><y>430</y><w>270</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
-SpamWord
+Configuration
 --
-+ spanishTranslation: String {NotBlank}
-+ englishTranslation: String {NotBlank}
++ spamWords: String {NotBlank}
 + spamThreshold: double {Range{0,1}}
 
 
