@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-09 13:27:48.121,acme.testing.administrator.configuration.AdministratorConfigurationListTest,ListRecent,3726,"[1] recordIndex=0, spam=sex,duro,hard core,viagra,cialis,nigeria,has ganado,you've won,millon de dolares,million dollars, threshold=0.1",Expected value 'sex,duro,hard core,viagra,cialis,nigeria,has ganado,you've won,millon de dolares,million dollars' in attribute 0 of record 0, but found 'sex,sexo,hard core,viagra,cialis,nigeria,has ganado,you've won,millon de dolares,million dollar'

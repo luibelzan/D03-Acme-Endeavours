@@ -15,7 +15,7 @@ public class AdministratorConfigurationUpdateTest extends AcmeEndeavoursTest{
 		
 		// Accedemos como administrador
 		super.signIn("administrator", "administrator");
-		super.clickOnMenu("Administrator", "List spam words");
+		super.clickOnMenu("Administrator", "List Spamwords");
 		
 		// Accedemos a cada registro
 		super.clickOnListingRecord(recordIndex);
@@ -49,7 +49,7 @@ public class AdministratorConfigurationUpdateTest extends AcmeEndeavoursTest{
 	public void updatenegative(final int recordIndex,final String spam, final Double threshold) {
 		// Accedemos como administrador
 		super.signIn("administrator", "administrator");
-		super.clickOnMenu("Administrator", "List spam words");
+		super.clickOnMenu("Administrator", "List Spamwords");
 		
 		// Accedemos a cada registro
 		super.clickOnListingRecord(recordIndex);

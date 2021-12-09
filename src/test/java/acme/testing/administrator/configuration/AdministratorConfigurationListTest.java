@@ -15,7 +15,7 @@ public class AdministratorConfigurationListTest extends AcmeEndeavoursTest{
 		
 		// Accedemos como administrador
 		super.signIn("administrator", "administrator");
-		super.clickOnMenu("Administrator", "List spam words");
+		super.clickOnMenu("Administrator", "List Spamwords");
 		
 		// Comprobación de columna
 		super.checkColumnHasValue(recordIndex, 0, spam);
