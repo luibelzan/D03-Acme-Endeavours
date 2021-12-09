@@ -31,27 +31,27 @@ public class AdministratorShowDashboardTest extends AcmeEndeavoursTest{
 		By locatorNumberFinalTask;
 		locatorNumberFinalTask = By.xpath("/html/body/div[2]/div/table/tbody/tr[3]/td");
 		final WebElement numberFinalTask = this.driver.findElement(locatorNumberFinalTask);
-		Assertions.assertEquals("12.00", numberFinalTask.getText());
+		Assertions.assertEquals("7.00", numberFinalTask.getText());
 
 		final By locatorNumberNoFinalTask;
 		locatorNumberNoFinalTask = By.xpath("/html/body/div[2]/div/table/tbody/tr[4]/td");
 		final WebElement numberNoFinalTask = this.driver.findElement(locatorNumberNoFinalTask);
-		Assertions.assertEquals("0.00", numberNoFinalTask.getText());
+		Assertions.assertEquals("5.00", numberNoFinalTask.getText());
 
 		final By locatorAverageDurationPeriodTasks;
 		locatorAverageDurationPeriodTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[5]/td");
 		final WebElement averageDurationPeriodTasks = this.driver.findElement(locatorAverageDurationPeriodTasks);
-		Assertions.assertEquals("17,049.00", averageDurationPeriodTasks.getText());
+		Assertions.assertEquals("20,699.00", averageDurationPeriodTasks.getText());
 
 		By locatorDeviationDurationPeriodTasks;
 		locatorDeviationDurationPeriodTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[6]/td");
 		final WebElement deviationDurationPeriodTasks = this.driver.findElement(locatorDeviationDurationPeriodTasks);
-		Assertions.assertEquals("1,531.09", deviationDurationPeriodTasks.getText());
+		Assertions.assertEquals("1,345.06", deviationDurationPeriodTasks.getText());
 
 		By locatorMinimumDurationPeriodTasks;
 		locatorMinimumDurationPeriodTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[7]/td");
 		final WebElement minimumDurationPeriodTasks = this.driver.findElement(locatorMinimumDurationPeriodTasks);
-		Assertions.assertEquals("0.00", minimumDurationPeriodTasks.getText());
+		Assertions.assertEquals("1.00", minimumDurationPeriodTasks.getText());
 
 		By locatorMaximumDurationPeriodTasks;
 		locatorMaximumDurationPeriodTasks = By.xpath("/html/body/div[2]/div/table/tbody/tr[8]/td");

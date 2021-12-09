@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-09 13:29:37.368,acme.testing.administrator.configuration.AdministratorConfigurationListTest,ListRecent,4712,"[1] recordIndex=0, spam=sex,sexo,hard core,viagra,cialis,nigeria,has ganado,you've won,millon de dolares,million dollar, threshold=0.1",OK
