@@ -135,6 +135,9 @@ public class OfficerDutyCreateService implements AbstractCreateService<Officer, 
 			final String str = String.format("%.2f", number);
 			final String fullNumber = String.valueOf(number);
 			final int parteEntera = Integer.parseInt(str.substring(0, str.indexOf(".")));
+			if(parteEntera>99 || parteEntera<0) {
+				errors.state(request, false, "workloadInHours", "officer.message.form.error.workload5");
+			}
 			final int parteDecimal = Integer.parseInt(str.substring(str.indexOf('.') + 1));
 			final int workloadInMinutes = (parteEntera*60) + parteDecimal;
 			final String parteDecimalCompleta = fullNumber.substring(fullNumber.indexOf('.') + 1);
