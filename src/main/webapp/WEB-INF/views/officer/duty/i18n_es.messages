@@ -24,4 +24,5 @@ officer.message.form.error.workload4 = Solo se admiten dos decimales
 officer.message.form.error.workload3 = Introduce fechas válidas
 officer.message.form.error.workload2 = Debe estar entre 0 y 59
 officer.message.form.error.workload = No puede ser mayor a la diferencia entre fechas
+officer.message.form.error.workload5 = La carga de trabajo debe estar entre 0 y 99.59
 

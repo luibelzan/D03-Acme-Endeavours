@@ -11,7 +11,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Length;
-import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.DomainEntity;
@@ -55,7 +54,6 @@ public class Duty extends DomainEntity{
 		protected Boolean       isPublic;
 		
 		@NotNull
-		@Range(min=0, max=99)
 		protected Double        workloadInHours;
 		
 		@ManyToOne
@@ -86,5 +84,6 @@ public class Duty extends DomainEntity{
 			duracion = TimeUnit.MINUTES.convert(diferenceInMiliseconds, TimeUnit.MILLISECONDS);
 			return duracion;
 		}
+		
 
 }
