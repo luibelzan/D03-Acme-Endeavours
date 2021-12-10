@@ -1,8 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-12-08 19:14:20.674,acme.testing.anonymous.duty.AnonymousDutyListTest,ListRecent,1268,"[1] recordIndex=0, title=Clean my car, initialPeriod=2021/12/08 12:30, finalPeriod=2022/01/20 12:45, description=I have to clean my car",OK
-2021-12-08 19:14:22.243,acme.testing.anonymous.duty.AnonymousDutyListTest,ListRecent,1284,"[2] recordIndex=1, title=Clean my house, initialPeriod=2021/12/08 12:30, finalPeriod=2022/01/25 13:30, description=I have to clean my house",OK
-2021-12-08 19:14:23.651,acme.testing.anonymous.duty.AnonymousDutyListTest,ListRecent,1153,"[3] recordIndex=2, title=Go to the doctor, initialPeriod=2021/12/08 12:30, finalPeriod=2022/01/27 13:30, description=I have to go to the doctor",OK
-2021-12-08 19:14:25.095,acme.testing.anonymous.duty.AnonymousDutyListTest,ListRecent,1218,"[4] recordIndex=3, title=Developing my application, initialPeriod=2021/12/08 12:30, finalPeriod=2022/01/28 13:30, description=I have to finish developing my application",OK
-2021-12-08 19:14:26.602,acme.testing.anonymous.duty.AnonymousDutyListTest,ListRecent,1220,"[5] recordIndex=4, title=Study the math exam, initialPeriod=2021/12/08 12:30, finalPeriod=2022/01/26 12:30, description=I have to study the math exam",OK
-2021-12-08 19:14:29.937,acme.testing.anonymous.duty.AnonymousDutyListTest,listAnonymousNegative,3078,"[1] user=officer1, password=officer1",OK
-2021-12-08 19:14:33.066,acme.testing.anonymous.duty.AnonymousDutyListTest,listAnonymousNegative,2893,"[2] user=employer1, password=employer1",OK

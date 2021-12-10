@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-12-08 18:13:40.978,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,31626,"[1] recordIndex=0, author=Foo Bar, text=Just turning 50!, info=null",Cannot find 'By.className: text-danger'
-2021-12-08 18:14:12.74,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,31514,"[2] recordIndex=1, author=Jane Doe, text=I have to clean the car, info=http://www.lavaderoSevilla.com",Cannot find 'By.className: text-danger'
